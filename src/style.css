@@ -1,0 +1,18 @@
+  @font-face {
+    font-family: 'Acme';
+    font-style: normal;
+    font-weight: 400;
+    src: url('acme-v7-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Acme Regular'), local('Acme-Regular'),
+         url('acme-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('acme-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('acme-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('acme-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('acme-v7-latin-regular.svg#Acme') format('svg'); /* Legacy iOS */
+  }
+ .hello {
+   color: red;
+   background: url('./icon.png');
+   font-family: 'Acme';
+   font-size: 50px;
+ }
